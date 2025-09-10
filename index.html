@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Document</title>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
 </head>
 <body>
-    <input type="text" id="task" placeholder="enter a task ">
-    <button onclick="addTask()">Add Task</button>
-    <ul id="taskList"></ul>
-
-    <script>
-        function addTask(){
-            let taskText = document.getElementById("task").value;
-            if(taskText === "")  return;
-
-            let li = document.createElement("li")
-            li.textContent= taskText;
-            document.getElementById("taskList").appendChild(li);
-            document.getElementById("task").value ="";
-        }
-    </script>
-    
+    <h1>welcome to home page</h1>
+    <p>This is a simple HTML page</p>
+    <a href="about.html">About page</a>||
+    <a href="contact.html">Contact</a>||
+    <a href="employee.html">Employee page</a> ||
+    <br>
+    <img src="srmcem.jpg" alt="">   
+       
 </body>
 </html>
